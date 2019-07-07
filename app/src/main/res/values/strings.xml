@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">igraFive_New02072019</string>
+    <string name="fon_description">fon</string>
+    <string name="boy_description">boy</string>
+    <string name="text_start_button">начать</string>
+    <string name="Next">Далее</string>
+    <string name="foto1">foto1</string>
+    <string name="foto2">foto2</string>
+    <string name="foto3">foto3</string>
+</resources>

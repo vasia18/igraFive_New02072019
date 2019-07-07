@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:divider="@drawable/separator"
+    android:dividerPadding="4dp"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:showDividers="middle"
+    tools:context=".One_levelActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_TitleOne1"
+                style="@style/StyleTitle"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageViewOne1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/foto_one"
+                android:contentDescription="@string/foto1" />
+
+            <TextView
+                android:id="@+id/textView_Text1"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text2"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text3"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text4"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text5"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text6"
+                style="@style/StyleText"
+                android:layout_marginBottom="10dp"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageViewOne2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/foto_two"
+                android:contentDescription="@string/foto2" />
+
+            <TextView
+                android:id="@+id/textView_TitleOne2"
+                style="@style/StyleTitle"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text7"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text8"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text9"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text10"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_TitleOne3"
+                style="@style/StyleTitle"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text11"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text12"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text13"
+                style="@style/StyleText"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageViewOne3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/foto_free"
+                android:contentDescription="@string/foto3" />
+
+            <TextView
+                android:id="@+id/textView_Text14"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text15"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text16"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text17"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text18"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text19"
+                style="@style/StyleText"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView_Text20"
+                style="@style/StyleText"
+                android:text="" />
+
+
+            <Button
+                android:id="@+id/one_Btn_Next"
+                style="@style/ButtonStyle"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:onClick="Click_one_Btn_Next"
+                android:text="@string/Next" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
