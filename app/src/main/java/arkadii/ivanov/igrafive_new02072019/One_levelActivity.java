@@ -16,8 +16,6 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.w3c.dom.Text;
-
 public class One_levelActivity extends AppCompatActivity {
 
 	//Говорим что бу нас будут логи, прописываем TAG
@@ -349,6 +347,7 @@ public class One_levelActivity extends AppCompatActivity {
 
 	}
 	//На этом месте заканчивается код AsyncTask
+
 
 	public void Click_one_Btn_Next(View view) {
 		Intent intent = new Intent(One_levelActivity.this, Two_levelActivity.class);
